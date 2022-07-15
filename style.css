@@ -1,29 +1,40 @@
+ h2{
+    font-size: 50px;
+    margin: 30px;
+ }  
    
-div {  
-    box-sizing: border-box; 
-    width: 100%; 
-    border: 100px solid black; 
-} 
-   
-form {                                         
-    margin: 0 auto; 
-    width: 600px;
-    text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
+
+td{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-form>p{
+
+table{
+    float: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    background-color: rgb(163, 165, 167);
+    width: auto;
+    padding:30px 0px ;
+    margin:  20px;
+    
 }
 input{
-    width: 300px;
-    margin-left: 2%;
+    width: 400px;
+    margin: 4%;
     float: inline-end;
+    font-size: larger;
+}
+#submit{
+    width: 200px;
+    margin: 4%;
+    font-size: larger;
+    background-color:orangered ;
+    color: white;
 }
 .alert{
     color: red;
+    font-size: medium;
 }
